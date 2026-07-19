@@ -150,7 +150,7 @@ export default function Home() {
               <button
                 type="submit"
                 disabled={pending}
-                className="w-full rounded-lg bg-blue-600 px-4 py-2.5 font-semibold text-white shadow-sm transition hover:bg-blue-700 disabled:cursor-not-allowed disabled:opacity-60"
+                className="w-full rounded-lg bg-red-600 px-4 py-2.5 font-semibold text-white shadow-sm transition hover:bg-red-700 disabled:cursor-not-allowed disabled:opacity-60"
               >
                 {pending ? "신청 처리 중..." : "신청하기"}
               </button>
